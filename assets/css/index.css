@@ -675,6 +675,14 @@ html {
     .section {
         padding: var(--spacing-2xl) 0;
     }
+    .iframe iframe{
+        width: 70vw;
+        height: 40vh;
+    }
+    .img-about img {
+        width: 57vw;
+        height: 60vw;
+    }
 
 
 }
