@@ -326,10 +326,12 @@ html {
     margin-right: auto;
 }
 
-.iframe {
+.iframe iframe{
     display: flex;
     justify-content: center;
-    margin-left: vw;
+    width: 40vw;
+    height: 40vh;
+    margin: 1vw;
 }
 
 /* About Section */
@@ -337,12 +339,19 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
-.img-about {
-    margin: 6vw;
-    border-radius: 50%;
+.img-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 3vw;
+
+}
+.img-about img {
+    width: 20vw;
+    height: 27vw;
+    border-radius:50%;
     overflow: hidden;
 
 }
